@@ -1,0 +1,36 @@
+theme = "lynx"
+title = "Lynx"
+
+enableEmoji = true
+disableKinds = ["taxonomy", "term"]
+
+[author]
+  name = "Atletiekunie.tv"
+  image = "logo-au.jpg"
+  links = [
+    { link = { href = "https://github.com/jpanther/lynx/blob/stable/README.md", text = "View the readme", icon = "github" } },
+    { link = { href = "styles/", text = "All the link styles", target = "_self" } },
+	{ link = { href = "archief/", text = "Archief", target = "_self" } },
+	{ link = { href = "feeda/", text = "Live Feed A", target = "_self" } },
+    { github = "https://github.com/jpanther/lynx" },
+    { twitter = "https://twitter.com/jpanther" },
+    { font-awesome = { href = "https://fontawesome.com/", text = "FontAwesome" } },
+  ]
+  
+[params]
+  homepage_intro = 'Whisper is a documentation theme built with Hugo. The design and functionality is intentionally minimal.'
+  links_abc = [
+    { link = { href = "https://github.com/jpanther/lynx/blob/stable/README.md", text = "View the readme", icon = "github" } },
+    { twitter = "https://twitter.com/sjdurand" },
+  ]
+  links_b = [
+    { link = { href = "https://github.com/jpanther/lynx/blob/stable/README.md", text = "View the readme", icon = "github" } },
+    { twitter = "https://twitter.com/" },
+  ]
+
+[markup.highlight]
+  noClasses = false
+
+[markup.goldmark]
+[markup.goldmark.renderer]
+  unsafe = true
