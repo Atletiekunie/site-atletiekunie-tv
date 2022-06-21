@@ -7,6 +7,10 @@ social:
     link: "https://www.youtube.com/channel/UC0jxWRT7rqjoanNfXV3aAQA"
     icon: "youtube"
 shrubberies:
+  - name: "51ste Gouden Spike 2022"
+    link: "https://youtu.be/ZcIzNL1eh9U"
+    icon: "youtube"
+    icon_set: "fab"
   - name: "Next Generation Athletics 2022"
     link: "https://youtu.be/X_LH8JZ99bo"
     icon: "youtube"
