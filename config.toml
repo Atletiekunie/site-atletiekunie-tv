@@ -1,18 +1,24 @@
-baseURL = "https://www.atletiekunie.tv"
-title = "Atletiekunie.tv"
+theme = "lynx"
+title = "Atletiekunie.TV"
 languageCode = "nl-nl"
-theme = "linkshrubbery"
-relativeURLs = true
 enableEmoji = true
-enableRobotsTXT = true
-copyright = "&copy; Year, Atletiekunie.tv"
 disableKinds = ["taxonomy", "term"]
 
-# Configuration Features
-[params]
-  description = "Your meta description"  # Your meta description of the site
-  avatar = "/images/logo-au.jpg"          # Path to avatar image starting from the static directory
-  logo = "/images/logo-au.jpg"              # Path to logo image starting from the static directory
-  [params.style]                         # CSS style overrides
-    backgroundColor = "#f8f9fa"
-    fontColor = "#212529"
+[author]
+  name = "Atletiekunie.tv"
+  image = "logo-au.jpg"
+  links = [
+        {youtube = { href = "https://youtu.be/5LGFRqgnNqk", text = "NK Indoor Meerkamp - 5 februari"} },
+        {youtube = { href = "https://youtu.be/U6D_mnsHX6I", text = "ASICS NK Indoor U20/U18 - 11 februari"} },
+        {youtube = { href = "https://youtu.be/GrKxg_kXtVU", text = "ASICS NK Indoor U20/U18 - 12 februari"} },
+        {youtube = { href = "https://youtu.be/Gwvx_oOBRSc", text = "NK Indoor Senioren 2023 - 18 februari"} },
+        {youtube = { href = "https://youtu.be/3VydGMkjBBs", text = "NK Indoor Senioren 2023 - 19 februari"} },
+        {youtube = { href = "https://www.youtube.com/@AtletiekunieTV/streams", text = "AtletiekunieTV Archief"} },
+  ]
+
+[markup.highlight]
+  noClasses = false
+
+[markup.goldmark]
+[markup.goldmark.renderer]
+  unsafe = true
