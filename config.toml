@@ -8,11 +8,7 @@ disableKinds = ["taxonomy", "term"]
   name = "Atletiekunie.tv"
   image = "logo-au.jpg"
   links = [
-        {youtube = { href = "https://youtu.be/5LGFRqgnNqk", text = "NK Indoor Meerkamp - 5 februari"} },
-        {youtube = { href = "https://youtu.be/U6D_mnsHX6I", text = "ASICS NK Indoor U20/U18 - 11 februari"} },
-        {youtube = { href = "https://youtu.be/GrKxg_kXtVU", text = "ASICS NK Indoor U20/U18 - 12 februari"} },
-        {youtube = { href = "https://youtu.be/Gwvx_oOBRSc", text = "NK Indoor Senioren 2023 - 18 februari"} },
-        {youtube = { href = "https://youtu.be/3VydGMkjBBs", text = "NK Indoor Senioren 2023 - 19 februari"} },
+        {youtube = { href = "https://www.youtube.com/watch?v=LLY9hwML7eU", text = "Ter Specke Bokaal 2023 - 13 mei"} },
         {youtube = { href = "https://www.youtube.com/@AtletiekunieTV/streams", text = "AtletiekunieTV Archief"} },
   ]
 
