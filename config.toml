@@ -8,7 +8,8 @@ disableKinds = ["taxonomy", "term"]
   name = "Atletiekunie.tv"
   image = "logo-au.jpg"
   links = [
-        {youtube = { href = "https://www.youtube.com/watch?v=LLY9hwML7eU", text = "Ter Specke Bokaal 2023 - 13 mei"} },
+        {youtube = { href = "https://www.youtube.com/watch?v=REC0ePOttDI", text = "Gouden Spike 2023"} },
+        {youtube = { href = "https://www.youtube.com/watch?v=bjKgVBzb3nE", text = "Klaverblad International High Jump Meeting"} },
         {youtube = { href = "https://www.youtube.com/@AtletiekunieTV/streams", text = "AtletiekunieTV Archief"} },
   ]
 
