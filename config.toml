@@ -8,8 +8,9 @@ disableKinds = ["taxonomy", "term"]
   name = "Atletiekunie.tv"
   image = "logo-au.jpg"
   links = [
-        {youtube = { href = "https://www.youtube.com/watch?v=REC0ePOttDI", text = "Gouden Spike 2023"} },
-        {youtube = { href = "https://www.youtube.com/watch?v=bjKgVBzb3nE", text = "Klaverblad International High Jump Meeting"} },
+        {youtube = { href = "https://www.youtube.com/watch?v=JyKSN30uEBQ", text = "ASICS NK Atletiek 2023 - 28 juli"} },
+        {youtube = { href = "https://www.youtube.com/watch?v=OvBj3yNGM2U", text = "ASICS NK Atletiek 2023 - 29 juli"} },
+        {youtube = { href = "https://www.youtube.com/watch?v=tPMty43FoWs", text = "ASICS NK Atletiek 2023 - 30 juli"} },
         {youtube = { href = "https://www.youtube.com/@AtletiekunieTV/streams", text = "AtletiekunieTV Archief"} },
   ]
 
