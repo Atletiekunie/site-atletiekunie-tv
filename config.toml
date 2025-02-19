@@ -8,10 +8,9 @@ disableKinds = ["taxonomy", "term"]
   name = "Atletiekunie.tv"
   image = "logo-au.jpg"
   links = [
-        {youtube = { href = "https://youtube.com/live/ikopdCvEWnc", text = "ASICS NK Indoor U20 & U18 - dag 1 - 15 februari"} },
-        {youtube = { href = "https://youtube.com/live/4rSt5oibd8I", text = "ASICS NK Indoor U20 & U18 - dag 2 - 16 februari"} },
         {youtube = { href = "https://youtube.com/live/UILTGSIf8xo", text = "ASICS NK Indoor Senioren - dag 1 - 22 februari"} },
         {youtube = { href = "https://youtube.com/live/6IC-S29Nh_E", text = "ASICS NK Indoor Senioren - dag 2 - 23 februari"} },
+        {link = { href = "https://uitslagen.atletiek.nl/Cis/Timetable?compid=15113", text = "Live Results"} },
         {youtube = { href = "https://www.youtube.com/@AtletiekunieTV/streams", text = "AtletiekunieTV Archief"} },
   ]
 
