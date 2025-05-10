@@ -8,8 +8,8 @@ disableKinds = ["taxonomy", "term"]
   name = "Atletiekunie.tv"
   image = "logo-au.jpg"
   links = [
-        {youtube = { href = "https://youtube.com/live/UILTGSIf8xo", text = "ASICS NK Indoor Senioren - dag 1 - 22 februari"} },
-        {youtube = { href = "https://youtube.com/live/6IC-S29Nh_E", text = "ASICS NK Indoor Senioren - dag 2 - 23 februari"} },
+        {youtube = { href = "https://youtube.com/live/_nSGBPs_nLk", text = "Ter Specke Bokaal 2025"} },
+        {youtube = { href = "https://youtube.com/live/3_oiGR6wx4k", text = "Ter Specke Bokaal 2025 - Geen Commentaar"} },
         {link = { href = "https://uitslagen.atletiek.nl/Cis/Timetable?compid=15113", text = "Live Results"} },
         {youtube = { href = "https://www.youtube.com/@AtletiekunieTV/streams", text = "AtletiekunieTV Archief"} },
   ]
