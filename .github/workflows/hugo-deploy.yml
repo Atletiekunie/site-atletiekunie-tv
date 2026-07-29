@@ -16,3 +16,4 @@ jobs:
     secrets:
         WG_CLIENT_PRIVATEKEY: ${{ secrets.WG_CLIENT_PRIVATEKEY}}
         SSH_KEY: ${{ secrets.SSH_KEY}}
+        DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
