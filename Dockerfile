@@ -1,5 +1,5 @@
 # Build stage - Build the Hugo site
-FROM alpine:latest as builder
+from alpine:latest as builder
 
 WORKDIR /src
 
@@ -16,8 +16,8 @@ RUN git config --global --add safe.directory /src && \
 # Debug: Check if theme is present
 RUN ls -la themes/
 
-# Build the Hugo site with verbose output
-RUN hugo --gc --minify -v
+# Build the Hugo site
+RUN hugo --gc --minify
 
 # Runtime stage - Serve with nginx
 FROM nginx:1.31.10-alpine
