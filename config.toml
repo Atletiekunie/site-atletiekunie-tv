@@ -9,6 +9,7 @@ baseURL = "/"
     { youtube = { href = "https://youtube.com/live/38aeWXBP7Yo", text = "Warandeloop 2026 - Zaterdag" } },
     { youtube = { href = "https://youtube.com/live/bzZHe_Y7lvs", text = "Warandeloop 2026 - Zaterdag - Geen commentaar" } },
     { youtube = { href = "https://youtube.com/live/8ir7l3PetOE", text = "Warandeloop 2026 - Zondag" } },
+    { youtube = { href = "https://www.youtube.com/watch?v=0wXU53AHemo", text = "Warandeloop 2026 - European Athletics" } },
     { youtube = { href = "https://youtube.com/live/thwAuKO13WI", text = "Warandeloop 2026 - Zondag - Geen commentaar" } },
     { youtube = { href = "https://www.youtube.com/@AtletiekunieTV/streams", text = "AtletiekunieTV Archief" } },
   ]
