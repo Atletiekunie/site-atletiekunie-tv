@@ -13,8 +13,11 @@ COPY . .
 RUN git config --global --add safe.directory /src && \
     git submodule update --init --recursive
 
-# Build the Hugo site
-RUN hugo --gc --minify
+# Debug: Check if theme is present
+RUN ls -la themes/
+
+# Build the Hugo site with verbose output
+RUN hugo --gc --minify -v
 
 # Runtime stage - Serve with nginx
 FROM nginx:1.31.10-alpine
