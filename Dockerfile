@@ -9,12 +9,9 @@ RUN apk add --no-cache hugo git
 # Copy site content
 COPY . .
 
-# Initialize and update git submodules (for themes)
+# Initialize and update git submodules (optional for themes)
 RUN git config --global --add safe.directory /src && \
-    git submodule update --init --recursive
-
-# Debug: Check if theme is present
-RUN ls -la themes/
+    git submodule update --init --recursive || true
 
 # Build the Hugo site
 RUN hugo --gc --minify
