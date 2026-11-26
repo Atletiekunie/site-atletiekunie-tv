@@ -78,10 +78,12 @@
     {{ hugo.Generator }}
   {{ end }}
   {{/* Me */}}
-  {{ with .Site.Author.name }}<meta name="author" content="{{ . }}" />{{ end }}
-  {{ with .Site.Author.links }}
-    {{ range $links := . }}
-      {{ range $name, $url := $links }}<link href="{{ $url }}" rel="me" />{{ end }}
+  {{ with .Site.Params.author }}
+    {{ with .name }}<meta name="author" content="{{ . }}" />{{ end }}
+    {{ with .links }}
+      {{ range $links := . }}
+        {{ range $name, $url := $links }}<link href="{{ $url }}" rel="me" />{{ end }}
+      {{ end }}
     {{ end }}
   {{ end }}
   {{/* Analytics */}}
