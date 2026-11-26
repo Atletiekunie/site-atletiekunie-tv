@@ -7,16 +7,14 @@ updates:
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
-      day: "wednesday"
-      interval: "weekly"
+      interval: "daily"
       time: "04:54"
     assignees:
       - "durandguru"
-  - package-ecosystem: "terraform"
+  - package-ecosystem: "docker"
     directory: "/"
     schedule:
-      day: "thursday"
-      interval: "weekly"
+      interval: "daily"
       time: "05:54"
     assignees:
       - "durandguru"
