@@ -8,8 +8,10 @@ disableKinds = ["taxonomy", "term"]
   name = "Atletiekunie.tv"
   image = "logo-au.jpg"
   links = [
-        {youtube = { href = "https://youtube.com/live/cLbwMNH0opE", text = "ASICS NK Atletiek 2026 - Zaterdag"} },
-        {youtube = { href = "https://youtube.com/live/rx6jPpF6nMI", text = "ASICS NK Atletiek 2026 - Zondag"} },
+        {youtube = { href = "https://youtube.com/live/38aeWXBP7Yo", text = "Warandeloop 2026 - Zaterdag"} },
+        {youtube = { href = "https://youtube.com/live/bzZHe_Y7lvs", text = "Warandeloop 2026 - Zaterdag - Geen commentaar"} },
+        {youtube = { href = "https://youtube.com/live/8ir7l3PetOE", text = "Warandeloop 2026 - Zondag"} },
+        {youtube = { href = "https://youtube.com/live/thwAuKO13WI", text = "Warandeloop 2026 - Zondag - Geen commentaar"} },
         {youtube = { href = "https://www.youtube.com/@AtletiekunieTV/streams", text = "AtletiekunieTV Archief"} },
   ]
 
