@@ -1,5 +1,5 @@
 # Build stage - Build the Hugo site
-FROM alpine:latest as builder
+FROM alpine:latest AS builder
 
 WORKDIR /src
 
