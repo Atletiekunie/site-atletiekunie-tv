@@ -3,11 +3,15 @@ FROM alpine:latest as builder
 
 WORKDIR /src
 
-# Install Hugo
-RUN apk add --no-cache hugo
+# Install Hugo and git (needed for submodules)
+RUN apk add --no-cache hugo git
 
 # Copy site content
 COPY . .
+
+# Initialize and update git submodules (for themes)
+RUN git config --global --add safe.directory /src && \
+    git submodule update --init --recursive
 
 # Build the Hugo site
 RUN hugo --gc --minify
